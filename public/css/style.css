@@ -1,27 +1,28 @@
 body {
-    color: #ffffff;
+    color: #4e4e4e;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-    background-image: url('/img/background.png');
-    background-size: 120%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-
     display: flex;
     flex-direction: column;
     min-height: 100vh
 }
 
+body a {
+    color: #4e4e4e;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
 .main-content {
     flex-grow: 1;
+    
     
 }
 
 footer {
-    color: #888888;
+    color: #b6b6b6;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -38,7 +39,7 @@ h1 {
 }
 
 header a {
-    color: #e7dddd;
+    color: #4e4e4e;
     margin-right: 16px;
     text-decoration: none;
 }
